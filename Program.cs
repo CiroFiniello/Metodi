@@ -15,6 +15,16 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("METODI");
+        Console.WriteLine("Controllo se la stringa è palindroma...");
+        string input = "";
+        input = Console.ReadLine();
+        if (Metodi.IsPalindroma.IsPali(input))
+        {
+            Console.WriteLine("La stringa è palindroma.");
+        }
+        else
+        {
+            Console.WriteLine("La stringa non è palindroma.");
+        }
     }
 }
