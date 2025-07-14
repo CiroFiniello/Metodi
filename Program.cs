@@ -15,6 +15,6 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("METODI!");
+        Console.WriteLine("METODI");
     }
 }
